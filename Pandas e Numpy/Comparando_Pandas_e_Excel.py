@@ -10,8 +10,11 @@ base = pd.read_excel('RC-RecebidasAbandonadas.xlsx')
 # print(type(base))
 #
 # base.head(21)
-#
-# print(base.head(13))
+
+display(base)
+print(base.head(13))
+
+
 #
 # print(base.dtypes)
 
@@ -19,7 +22,7 @@ base = pd.read_excel('RC-RecebidasAbandonadas.xlsx')
 #
 # base.plot.scatter(x='Grupo', y='Tempo de Espera')
 
-print(base["Tempo de Espera"].mean())
-
-print(base["Tempo de Espera"].describe())
+# print(base["Tempo de Espera"].mean())
+#
+# print(base["Tempo de Espera"].describe())
 
