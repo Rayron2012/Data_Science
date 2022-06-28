@@ -11,8 +11,13 @@ base = pd.read_excel('RC-RecebidasAbandonadas.xlsx')
 #
 # base.head(21)
 
-display(base)
-print(base.head(13))
+# display(base)
+# print(base.head(13))
+#
+# print(base.isnull().sum()) # pode ser usado para contar os nulos
+#
+grupo = base["Grupo"]
+# print(grupo.value_counts())
 
 
 #
@@ -26,3 +31,8 @@ print(base.head(13))
 #
 # print(base["Tempo de Espera"].describe())
 
+
+
+base_estatistica = [['Grupo', grupo.value_counts()]]
+
+print(base_estatistica)
