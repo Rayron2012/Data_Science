@@ -69,5 +69,3 @@ maior engajamento'''
 
 '''Para analisar a linha do tempo retirar o # do comentario, para conseguir analisar todos os passos individualmente!'''
 
-
-
